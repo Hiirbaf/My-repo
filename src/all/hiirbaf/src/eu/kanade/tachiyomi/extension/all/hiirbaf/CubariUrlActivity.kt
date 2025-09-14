@@ -52,7 +52,7 @@ class CubariUrlActivity : Activity() {
         if (pathSegments.size >= 2) {
             val id = pathSegments[1]
 
-            return "${Cubari.PROXY_PREFIX}$source/$id"
+            return "${Hiirbaf.PROXY_PREFIX}$source/$id"
         }
         return null
     }
@@ -61,7 +61,7 @@ class CubariUrlActivity : Activity() {
         return if (pathSegments.size >= 3) {
             val source = pathSegments[1]
             val slug = pathSegments[2]
-            "${Cubari.PROXY_PREFIX}$source/$slug"
+            "${Hiirbaf.PROXY_PREFIX}$source/$slug"
         } else {
             null
         }
