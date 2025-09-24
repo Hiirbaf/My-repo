@@ -28,7 +28,9 @@ import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 import uy.kohesive.injekt.injectLazy
 
-open class Hiirbaf(override val lang: String) : HttpSource() {
+open class Hiirbaf : HttpSource() {
+
+    override val lang: String = "all"
 
     final override val name = "Hiirbaf"
 
