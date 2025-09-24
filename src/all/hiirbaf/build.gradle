@@ -1,6 +1,6 @@
 ext {
     extName = 'Hiirbaf'
-    extClass = '.CubariFactory'
+    extClass = '.Hiirbaf'
     extVersionCode = 25
 }
 
